@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9fb;
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #eaf3ff;
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 15px;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.search-container {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#results {
+  margin-top: 30px;
+}
+
+.result-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.suggestions {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: absolute;
+  z-index: 1000;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #eaf3ff;
+}
+.result-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
